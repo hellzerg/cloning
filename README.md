@@ -1,6 +1,7 @@
 ## Summary: ##
 
-Simple utility to calculate and compare hashes of multiple files
+Portable utility that helps you backup and restore your programs settings
+Extremely useful after a fresh installation of Windows
 
 ## Features: ##
 
