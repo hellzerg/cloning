@@ -1,0 +1,27 @@
+## Summary: ##
+
+Simple utility to calculate and compare hashes of multiple files
+
+## Features: ##
+
+* Automatic detection of installed programs
+* Registry keys backup support
+* Manage multiple backups
+* Backup your drivers for manual installation
+
+## Downloads: ##
+https://github.com/hellzerg/cloning/releases
+
+## Compatibility: ##
+
+.NET Framework 4.5
+
+Compatible with Windows 7, 8.1, 10
+
+Does not work with Windows XP or Vista
+
+## Details: ##
+
+Latest version: 1.8
+
+Released: February 17, 2017
