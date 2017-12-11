@@ -18,7 +18,7 @@ namespace Cloning
 
         // Enter current version here
         internal readonly static float Major = 1;
-        internal readonly static float Minor = 8;
+        internal readonly static float Minor = 9;
 
         /* END OF VERSION PROPERTIES */
 

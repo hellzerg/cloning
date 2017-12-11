@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9] - 2017-12-12
+- JDownloader2 detection fixed
+
 ## [1.8] - 2017-02-17
 - UI changes
 

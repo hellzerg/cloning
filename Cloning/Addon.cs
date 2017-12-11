@@ -477,7 +477,7 @@ namespace Cloning
             Version = "Compatible ONLY with 2.xx";
         }
 
-        public string Folder = Utilities.LocalAppData + @"\JDownloader v2.0\cfg";
+        public string Folder = Utilities.LocalAppData + @"\JDownloader 2.0\cfg";
 
         public override bool IsInstalled()
         {
