@@ -14,6 +14,9 @@ Extremely useful after a fresh installation of Windows
 ## Downloads: ##
 https://github.com/hellzerg/cloning/releases
 
+## Screenshots: ##
+https://github.com/hellzerg/cloning/blob/master/IMAGES.md
+
 ## Compatibility: ##
 
 .NET Framework 4.5
