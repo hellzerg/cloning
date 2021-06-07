@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0] - 2021-06-07
+- Added AnyDesk support (request)
+
 ## [1.9] - 2017-12-12
 - JDownloader2 detection fixed
 
