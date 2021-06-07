@@ -20,6 +20,32 @@ namespace Cloning
         public virtual void Restore(string path) { }
     }
 
+    public class AnyDesk: Addon
+    {
+        public AnyDesk()
+        {
+            Title = "AnyDesk";
+            Info = "Backup AnyDesk configuration";
+        }
+
+        public string Folder = Utilities.ProgramData + @"\AnyDesk";
+
+        public override bool IsInstalled()
+        {
+            return Directory.Exists(Folder);
+        }
+
+        public override void Backup(string path)
+        {
+            Utilities.CopyFolder(Folder, path + Title);
+        }
+
+        public override void Restore(string path)
+        {
+            Utilities.CopyFolder(path + Title, Folder);
+        }
+    }
+
     public class SevenZip : Addon
     {
         public SevenZip()

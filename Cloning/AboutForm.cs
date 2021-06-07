@@ -88,10 +88,7 @@ namespace Cloning
             string s7 = "deadmoo";
             string s8 = "deadmoon";
             string s9 = "deadmoon © ";
-            string s10 = "deadmoon © 2";
-            string s11 = "deadmoon © 20";
-            string s12 = "deadmoon © 201";
-            string s13 = "deadmoon © 2017";
+            string s10 = "deadmoon © ∞";
 
             switch (l2.Text)
             {
@@ -124,19 +121,9 @@ namespace Cloning
                     break;
                 case "deadmoon © ":
                     l2.Text = s10;
-                    break;
-                case "deadmoon © 2":
-                    l2.Text = s11;
-                    break;
-                case "deadmoon © 20":
-                    l2.Text = s12;
-                    break;
-                case "deadmoon © 201":
-                    l2.Text = s13;
                     t2.Stop();
-                    //t1.Start();
                     break;
-                case "deadmoon © 2017":
+                case "deadmoon © ∞":
                     l2.Text = s0;
                     break;
             }
@@ -144,7 +131,7 @@ namespace Cloning
 
         private void l2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("http://5.249.159.211/deadmoon");
+            Process.Start("https://github.com/hellzerg/cloning");
         }
     }
 }

@@ -24,6 +24,7 @@ namespace Cloning
         SevenZip zip7 = new SevenZip();
         AdobePhotoshop photoshop = new AdobePhotoshop();
         AdobeReader reader = new AdobeReader();
+        AnyDesk anydesk = new AnyDesk();
         BitTorrent bt = new BitTorrent();
         BSPlayer bs = new BSPlayer();
         CCleaner cc = new CCleaner();
@@ -115,6 +116,7 @@ namespace Cloning
             addons.Add(zip7);
             addons.Add(photoshop);
             addons.Add(reader);
+            addons.Add(anydesk);
             addons.Add(bt);
             addons.Add(bs);
             addons.Add(cc);

@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Cloning")]
-[assembly: AssemblyCopyright("deadmoon © 2017")]
+[assembly: AssemblyCopyright("deadmoon © ∞")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
